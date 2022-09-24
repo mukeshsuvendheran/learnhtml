@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1px 10%;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 24px 16px;
+
+
+}
+
+li,
+a,
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+header nav ul li a {
+    transition: all 0.3s ease 0s;
+
+}
+
+header nav li a:hover {
+    color: black;
+    transition: all 0.3s ease 0s;
+}
+
+header>button {
+
+    padding: 9px 25px;
+    background-color: #4267B2;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+header>button:hover {
+    background-color: #5c9cb9;
+}
+
+.wrapper {
+ background-image: url("https://i.pinimg.com/originals/ba/22/3c/ba223c6dcb979c43291f59bfd2eef335.gif");
+    width: 100%;
+
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.wrapper:before {
+    position: absolute;
+    content: '';
+    background-image: linear-gradient(to right, rgba(240, 20, 20, 0.95), rgba(255, 0, 0, 0.884), rgba(175, 53, 53, 0.9), rgba(212, 118, 118, 0.85), rgb(151, 194, 235));
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+.content {
+    display: flex;
+    padding: 50px 10px;
+    margin-right: auto;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+p {
+    color: #fff;
+    padding-top: 20px;
+    line-height: 2;
+}
+
+.hero {
+    margin: 1% 20%;
+
+}
+
+.btn {
+    margin: 1% 0%;
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 2;
+    letter-spacing: 2px;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-outline {
+    border-radius: 50px;
+    color: #ffffff;
+    border-color: #ffffff;
+    padding: 10px 25px;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-outline:hover {
+    background: #5c9cb9;
+    border-color: transparent;
+    color: rgba(255, 0, 0, 0.884);
+}
+
+.social-media {
+    padding: 50px;
+    margin: 50px 400px;
+
+}
+
+.social-media ul {
+    display: flex;
+    list-style: none;
+}
+
+.social-media ul li {
+    padding: 30px;
+
+}
+
+.btn-social {
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.bgc-Git-Hub:hover {
+    background-color: #fff;
+    color: #4267B2;
+}
+
+.bgc-LinkedIn:hover {
+    background-color: #fff;
+     color:#FF0000 ;
+}
+
+.bgc-Git-Hub {
+    background-color: #4267B2;
+}
+
+.bgc-LinkedIn {
+    background-color: #FF0000;
+}
