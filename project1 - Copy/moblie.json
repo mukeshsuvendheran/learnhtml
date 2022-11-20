@@ -1,0 +1,57 @@
+[
+    {
+        "Model":"Redmi Note 9 pro",
+        "Brand":"Redmi",
+        "MRP"  :15999.00,
+        "price":14999.00,
+        "Ram"  :"6GB",
+        "Storage":"64GB",
+        "Camera":"48mp",
+        "Image" :"https://m.media-amazon.com/images/I/41i7LM0pGwL._SX300_SY300_QL70_FMwebp_.jpg"
+
+    },
+    {
+        "Model":"Xiaomi 11T Pro 5G Hyperphone",
+        "Brand":"Xiaomi ",
+        "MRP"  :35999.00,
+        "price":29999.00,
+        "Ram"  :"6GB",
+        "Storage":"128GB",
+        "Camera":"108mp",
+        "Image" :"https://m.media-amazon.com/images/I/71Od5yJbohL._SX569_.jpg"
+
+    },
+    {
+        "Model":"OnePlus 10 Pro 5G",
+        "Brand":"OnePlus",
+        "MRP"  :45999.00,
+        "price":40000.00,
+        "Ram"  :"12GB",
+        "Storage":"128GB",
+        "Camera":"50mp",
+        "Image" :"https://m.media-amazon.com/images/I/618hqM-yxtL._SX569_.jpg"
+
+    },
+    {
+        "Model":"OPPO A74",
+        "Brand":"OPPO",
+        "MRP"  :15999.00,
+        "price":14999.00,
+        "Ram"  :"6GB",
+        "Storage":"64GB",
+        "Camera":"48mp",
+        "Image" :"https://m.media-amazon.com/images/I/71geVdy6-OS._SX679_.jpg"
+
+    },
+    {
+        "Model":"Redmi Note 9 pro",
+        "Brand":"Redmi",
+        "MRP"  :15999.00,
+        "price":14999.00,
+        "Ram"  :"6GB",
+        "Storage":"64GB",
+        "Camera":"48mp",
+        "Image" :"https://m.media-amazon.com/images/I/41i7LM0pGwL._SX300_SY300_QL70_FMwebp_.jpg"
+
+    }
+]
